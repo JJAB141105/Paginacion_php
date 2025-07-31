@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e1eefb;
+}
+
+.contenedor {
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #abd5fc;
+    border-radius: 8px;
+    min-height: 30px;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    margin-top: 10px;
+    gap: 8px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    color: black;
+    background: #cfe8ff;
+}
+
+.btn-num-act {
+    color: #fff;
+    background-color: #2727ff;
+}
+
+.btn-mov-disabled {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    color: black;
+    background: #cfe8ff;
+    pointer-events: none;
+    color: gray; /* Opcional: Cambia el color para indicar que está deshabilitado */
+}
